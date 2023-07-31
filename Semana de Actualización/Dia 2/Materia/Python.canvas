@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"type":"text","text":"Incluye la ayuda integrada por defecto, las funciones que no devuelven valores y las funciones de orden superior.","id":"2f542bd6b09db7ec","x":8,"y":-920,"width":310,"height":185},
+		{"type":"text","text":"Es un lenguaje de programación fácil de leer que permite la asignación de variables, operaciones matemáticas, condiciones y manipulaciones de cadenas,entre otros","id":"dc051f7f5ee779de","x":-38,"y":-1280,"width":402,"height":180},
+		{"type":"text","text":"Python Básico ","id":"ff65a78b21a77b0a","x":-38,"y":-1340,"width":402,"height":60,"color":"2"},
+		{"type":"text","text":"Funciones y Ayuda","id":"445728500dfbb111","x":8,"y":-980,"width":310,"height":60,"color":"5"},
+		{"type":"text","text":"Observaciones","id":"587fa00cbe451248","x":-679,"y":-1340,"width":250,"height":60,"color":"4"},
+		{"type":"file","file":"Semana de Actualización/Dia 2/Images/Pasted image 20230725190128.png","id":"d4a9c94a70fa5fba","x":240,"y":-610,"width":680,"height":315,"color":"6"},
+		{"type":"text","text":"en python no hay triple ===","id":"a7a0474eee87320e","x":-679,"y":-1280,"width":250,"height":90},
+		{"type":"text","text":"son secuencias ordenadas de valores  que pueden ser modificadas e indexadas, tambien ofrecen fnciones útiles para manipularlas","id":"b4304bb1657ddd92","x":-1160,"y":-828,"width":368,"height":187},
+		{"type":"text","text":"Listas","id":"00ff2078ae6253ba","x":-1160,"y":-878,"width":368,"height":50,"color":"3"},
+		{"type":"text","text":"Booleans y condicionales","id":"ef93cd05e1f058f3","x":-1144,"y":-452,"width":352,"height":50,"color":"3"},
+		{"type":"text","text":"Python usa bool con valores True/False. Se usan con operadores booleanos, comparaciones y condicionales. Permite controlar la ejecución del código","id":"e91675039a02318d","x":-1144,"y":-402,"width":352,"height":204},
+		{"type":"text","text":"Los bucles en python (for, while) repiten el código determinado. Las comprensiones de listas permiten condensar bucles y condicionales en una sola linea.","id":"edc6544ce78eca9c","x":1120,"y":-770,"width":373,"height":160},
+		{"type":"text","text":"Bucles y comprensión de listas","id":"0b86a6409ad5442e","x":1120,"y":-827,"width":373,"height":60,"color":"3"},
+		{"type":"text","text":"String y Diccionarios","id":"6d5a12b0195cb978","x":1190,"y":-417,"width":349,"height":60,"color":"3"},
+		{"type":"text","text":"Las cadenas son flexibles, soportando múltiples métodos de manipulación. Las listas y diccionarios también son útiles para organizar datos.","id":"098acf485ad435db","x":1190,"y":-357,"width":349,"height":190},
+		{"type":"text","text":"Trabajando con librerias externas","id":"12e1cd3a1c540573","x":-16,"y":-40,"width":358,"height":75,"color":"3"},
+		{"type":"file","file":"Semana de Actualización/Dia 2/Images/Pasted image 20230725185908.png","id":"870047456f544cb5","x":-600,"y":-655,"width":717,"height":405,"color":"6"},
+		{"type":"text","text":"Python permite la importación de librerias, ya sea estandar o perzonalizadas, a traves de importaciones. Las librerias contienen módulos que son colecciones de funciones y valores.","id":"93a6e47e9361af88","x":-45,"y":80,"width":416,"height":234,"color":"6"}
+	],
+	"edges":[
+		{"id":"9ec0aa228202a67d","fromNode":"2f542bd6b09db7ec","fromSide":"left","toNode":"870047456f544cb5","toSide":"top","color":"#78c10b"},
+		{"id":"3abcb4f2733a0328","fromNode":"2f542bd6b09db7ec","fromSide":"right","toNode":"d4a9c94a70fa5fba","toSide":"top","color":"#41d8a5"},
+		{"id":"cc8dff120b30c593","fromNode":"dc051f7f5ee779de","fromSide":"bottom","toNode":"445728500dfbb111","toSide":"top"},
+		{"id":"400f842bb96eac7a","fromNode":"dc051f7f5ee779de","fromSide":"left","toNode":"b4304bb1657ddd92","toSide":"right","color":"3"},
+		{"id":"562786961ba2db47","fromNode":"dc051f7f5ee779de","fromSide":"right","toNode":"edc6544ce78eca9c","toSide":"left","color":"4"},
+		{"id":"9336a1ca786425d6","fromNode":"dc051f7f5ee779de","fromSide":"left","toNode":"ef93cd05e1f058f3","toSide":"right","color":"6"},
+		{"id":"bdab86700db0fdba","fromNode":"dc051f7f5ee779de","fromSide":"right","toNode":"6d5a12b0195cb978","toSide":"left","color":"2"},
+		{"id":"9dfb991f6a88de86","fromNode":"dc051f7f5ee779de","fromSide":"bottom","toNode":"12e1cd3a1c540573","toSide":"top","color":"4"}
+	]
+}

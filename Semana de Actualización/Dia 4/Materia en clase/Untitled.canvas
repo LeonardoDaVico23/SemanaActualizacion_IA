@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"79bb1562ac12821f","x":-154,"y":-169,"width":250,"height":169,"color":"5","type":"text","text":"Los Controladores son los encargados de escuchar la solicitud y emitir una respuesta "},
+		{"id":"cc2fd4536b6506ad","x":-154,"y":-229,"width":250,"height":60,"color":"3","type":"text","text":"Los controladores"},
+		{"id":"4787a759bedfb54f","x":-724,"y":240,"width":1391,"height":760,"type":"text","text":"![[Pasted image 20230730203747.png]]"},
+		{"id":"97d05fc3738cb094","x":-724,"y":190,"width":405,"height":50,"color":"3","type":"text","text":"Tareas en clase parte de la materia "},
+		{"id":"111a643f2489870a","x":-569,"y":1222,"width":250,"height":60,"color":"1","type":"text","text":"post"},
+		{"id":"3e66215751353666","x":-974,"y":1220,"width":250,"height":60,"color":"3","type":"text","text":"Get"},
+		{"id":"a0360ddcfba576a6","x":280,"y":1227,"width":250,"height":60,"color":"5","type":"text","text":"Patch"},
+		{"id":"7572e2d26515296e","x":648,"y":1227,"width":250,"height":60,"color":"2","type":"text","text":"Delete"},
+		{"id":"58b286c00251c410","x":-153,"y":1227,"width":250,"height":60,"color":"6","type":"text","text":"Controller"},
+		{"id":"4ba4e37f05ab9d44","x":-569,"y":1305,"width":250,"height":375,"type":"text","text":"- Es un método HTTP utilizado para enviar datos a un servidor para crear un recurso nuevo.\n- Se usa comúnmente para enviar formularios en línea o para enviar datos en el cuerpo de una solicitud HTTP.\n- El servidor procesa los datos y responde con un código de estado y, posiblemente, una respuesta que puede incluir el recurso creado."},
+		{"id":"95cc8660edb159c9","x":-974,"y":1305,"width":250,"height":375,"type":"text","text":"- Es un método HTTP utilizado para solicitar datos de un recurso específico en un servidor.\n- Se usa comúnmente para leer datos, ya que no debe tener ningún efecto secundario en el servidor.\n- Los parámetros de la solicitud se transmiten generalmente en la URL como parte de la cadena de consulta (query string)."},
+		{"id":"95b5e75e10431632","x":648,"y":1305,"width":250,"height":375,"type":"text","text":"- Es un método HTTP utilizado para solicitar la eliminación de un recurso específico en un servidor.\n- Al igual que el método GET, la solicitud de eliminación se dirige a un recurso específico identificado por su URL.\n- El servidor procesa la solicitud y elimina el recurso si existe y tiene los permisos adecuados."},
+		{"id":"3311394f40c2edd5","x":-153,"y":1305,"width":250,"height":375,"type":"text","text":"- En el contexto del desarrollo web, un controlador es una parte de la arquitectura del software que maneja las solicitudes entrantes y coordina la lógica del negocio y la interfaz de usuario.\n- Se encarga de recibir las solicitudes del cliente, procesar la lógica necesaria (consultas a la base de datos, cálculos, etc.) y enviar una respuesta adecuada al cliente.\n- Los controladores son una parte importante de muchos marcos de desarrollo web y siguen patrones de diseño como el Modelo-Vista-Controlador (MVC)."},
+		{"id":"9773ac0be47e5d3f","x":280,"y":1305,"width":250,"height":375,"type":"text","text":"- En el contexto de desarrollo web y APIs, una ruta (path) se refiere a la parte específica de una URL que identifica la ubicación de un recurso en un servidor.\n- Define la estructura de la URL que debe seguirse para acceder a un recurso o para invocar una acción específica en el servidor.\n- Las rutas generalmente contienen parámetros y pueden estar asociadas con un verbo HTTP (como GET, POST, DELETE, etc.) y un controlador que maneja la solicitud."}
+	],
+	"edges":[
+		{"id":"46792f00221cf055","fromNode":"79bb1562ac12821f","fromSide":"bottom","toNode":"4787a759bedfb54f","toSide":"top","color":"4"},
+		{"id":"f727b900a415a6f9","fromNode":"4787a759bedfb54f","fromSide":"bottom","toNode":"3e66215751353666","toSide":"top","color":"3"},
+		{"id":"c553321f88cb497e","fromNode":"4787a759bedfb54f","fromSide":"bottom","toNode":"111a643f2489870a","toSide":"top","color":"1"},
+		{"id":"651698df0b79c79a","fromNode":"4787a759bedfb54f","fromSide":"bottom","toNode":"58b286c00251c410","toSide":"top","color":"6"},
+		{"id":"6a829deb64e2f86f","fromNode":"4787a759bedfb54f","fromSide":"bottom","toNode":"a0360ddcfba576a6","toSide":"top","color":"5"},
+		{"id":"87097ceb9c63c258","fromNode":"4787a759bedfb54f","fromSide":"bottom","toNode":"7572e2d26515296e","toSide":"top","color":"2"}
+	]
+}
